@@ -1,0 +1,12 @@
+.header-area{
+    background-color: #23180d;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 130px;
+}
+.nav-menu a{
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 20px;
+}
