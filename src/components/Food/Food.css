@@ -1,0 +1,32 @@
+.food-area{
+    margin: 25px 25px;
+    position: relative;
+}
+.food-area img{
+    width: 250px;
+    margin: 5px 25px;
+
+}
+
+.food{
+    width: 300px;
+    height: 500px;
+    border: 1px solid beige;
+}
+.food-details{
+    padding: 0 10px;
+}
+.food-details h3{
+    margin-top: 10px;
+}
+.btn-cart{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    border: 0;
+    background-color: aliceblue;
+    padding: 10px;
+}
+.btn-cart:hover{
+    background-color: bisque;
+}
