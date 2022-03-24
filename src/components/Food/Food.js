@@ -2,7 +2,6 @@ import React from 'react';
 import './Food.css'
 
 const Food = (props) => {
-    console.log(props);
     const { strMealThumb, strMeal, strYoutube } = props.food
     return (
         <div className='food-area'>
@@ -10,9 +9,9 @@ const Food = (props) => {
                 <img src={strMealThumb} alt="" />
                 <div className="food-details">
                     <h3>Name:{strMeal}</h3>
-                    <p>{strYoutube}</p>
+                    <a href={strYoutube}>Youtube Link</a>
                 </div>
-                <button className='btn-cart'>Add To Cart</button>
+                <button onClick={() => props.foodButtonHandle(props.food)} className='btn-cart'>Add To Cart</button>
 
             </div>
         </div>
