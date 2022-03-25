@@ -26,6 +26,13 @@
     border: 0;
     background-color: aliceblue;
     padding: 10px;
+    cursor:pointer;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-cart p{
+    margin-right: 10px;
 }
 .btn-cart:hover{
     background-color: bisque;
